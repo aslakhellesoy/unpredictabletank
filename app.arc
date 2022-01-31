@@ -11,4 +11,8 @@ remix-architect-app
 # @aws
 # profile default
 # region us-west-1
-  
+
+@tables
+single-table
+  PK *String
+  SK **String

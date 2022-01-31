@@ -56,3 +56,4 @@ If you make it through all of that, you're ready to deploy!
    ```
 
 You're in business!
+The server is at https://czr78cpdhh.execute-api.us-west-2.amazonaws.com/
