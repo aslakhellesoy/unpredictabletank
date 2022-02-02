@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T22:17:07.632Z" agent="5.0 (Macintosh)" etag="XzEYTdNtSUyJRMzgD-tC" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-02T22:51:47.352Z" agent="5.0 (Macintosh)" etag="2JSdMrUsCsFjPt91tSo6" version="16.5.3" type="github">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
     <mxGraphModel dx="1102" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A3nWfry-o9ch1p6Sf_ie-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;SquadMember&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;admin&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="650" y="240" width="180" height="90" as="geometry" />
+          <mxGeometry x="890" y="240" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="A3nWfry-o9ch1p6Sf_ie-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=left;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ed32ef02a7f4228-1" target="A3nWfry-o9ch1p6Sf_ie-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -36,7 +36,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A3nWfry-o9ch1p6Sf_ie-3" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Player&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="650" y="390" width="180" height="90" as="geometry" />
+          <mxGeometry x="890" y="390" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="A3nWfry-o9ch1p6Sf_ie-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=left;exitX=0.5;exitY=0;entryX=0.5;entryY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A3nWfry-o9ch1p6Sf_ie-3" target="A3nWfry-o9ch1p6Sf_ie-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -53,10 +53,19 @@
             <mxPoint x="660" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A3nWfry-o9ch1p6Sf_ie-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=left;" edge="1" parent="1" source="2ed32ef02a7f4228-5" target="A3nWfry-o9ch1p6Sf_ie-3">
+        <mxCell id="A3nWfry-o9ch1p6Sf_ie-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=left;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2ed32ef02a7f4228-5" target="A3nWfry-o9ch1p6Sf_ie-9">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="480" y="340" as="sourcePoint" />
             <mxPoint x="600" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3nWfry-o9ch1p6Sf_ie-9" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;TeamMember&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="640" y="390" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A3nWfry-o9ch1p6Sf_ie-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=left;" edge="1" parent="1" source="A3nWfry-o9ch1p6Sf_ie-3" target="A3nWfry-o9ch1p6Sf_ie-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="570" y="445" as="sourcePoint" />
+            <mxPoint x="650" y="445" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
