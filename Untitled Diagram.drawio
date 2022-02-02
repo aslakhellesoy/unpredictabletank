@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T23:29:19.911Z" agent="5.0 (Macintosh)" etag="CmP4ZuvZ3j-sbz8piFZA" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-02T23:56:18.278Z" agent="5.0 (Macintosh)" etag="_VncYeTS7ZPvwrLgzRV5" version="16.5.3" type="github">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
     <mxGraphModel dx="1102" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -12,7 +12,7 @@
             <mxPoint x="730" y="330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2ed32ef02a7f4228-5" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Game&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;datetime&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+        <mxCell id="2ed32ef02a7f4228-5" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Game&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;start_time&lt;br&gt;joinable_time -&amp;gt; notify squad&lt;br&gt;capacity&lt;br&gt;next_delta&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="380" y="390" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2ed32ef02a7f4228-21" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;" parent="1" target="2ed32ef02a7f4228-9" edge="1">
@@ -44,22 +44,13 @@
             <mxPoint x="660" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A3nWfry-o9ch1p6Sf_ie-5" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;GameTemplate&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;day&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;time&lt;br&gt;place&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="110" y="240" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="A3nWfry-o9ch1p6Sf_ie-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=left;" edge="1" parent="1" source="2ed32ef02a7f4228-1" target="A3nWfry-o9ch1p6Sf_ie-5">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="530" y="210" as="sourcePoint" />
-            <mxPoint x="660" y="295" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="A3nWfry-o9ch1p6Sf_ie-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=left;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2ed32ef02a7f4228-5" target="A3nWfry-o9ch1p6Sf_ie-9">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="480" y="340" as="sourcePoint" />
             <mxPoint x="600" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A3nWfry-o9ch1p6Sf_ie-9" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;GamePlayer&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;team_name&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;admin&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="A3nWfry-o9ch1p6Sf_ie-9" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;GamePlayer&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;team_name&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;admin&lt;br&gt;join_time&lt;br&gt;(status: in/out/wait)&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="640" y="390" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="A3nWfry-o9ch1p6Sf_ie-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=left;" edge="1" parent="1" source="A3nWfry-o9ch1p6Sf_ie-3" target="A3nWfry-o9ch1p6Sf_ie-9">
@@ -67,6 +58,9 @@
             <mxPoint x="570" y="445" as="sourcePoint" />
             <mxPoint x="650" y="445" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="A3nWfry-o9ch1p6Sf_ie-11" value="&lt;div align=&quot;left&quot;&gt;Squad Admin&lt;br&gt;&lt;ul&gt;&lt;li&gt;Create/Edit Game&lt;/li&gt;&lt;li&gt;Invite Members&lt;/li&gt;&lt;li&gt;Create Teams (manage GamePlayers)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;User&lt;ul&gt;&lt;li&gt;Sign Up&lt;/li&gt;&lt;li&gt;Join/Leave Squad&lt;br&gt;&lt;/li&gt;&lt;li&gt;Join Game -&amp;gt; (Maybe on waiting list)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Leave Game -&amp;gt; Remove GamePlayer&lt;/li&gt;&lt;li&gt;See Game Players&lt;/li&gt;&lt;li&gt;See Waiting List&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;System&lt;br&gt;&lt;ul&gt;&lt;li&gt;Email invitation to Squad Members (Last game joinable time)&lt;/li&gt;&lt;li&gt;Email user on waiting list when given a spot&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="510" width="370" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
